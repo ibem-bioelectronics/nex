@@ -8,6 +8,30 @@
 * _communication protocol_ (nexdp): a lightweight and ultrafast protocol for communication with data telemetry implants
 * _user interface_ (nexui): an application for real-time data visualization and system control
 
+### System functionality
+
+* Biosignal recording
+  * 4 channels, AC- or DC-coupled instrumentation amplifier w/ variable gain (100 or 200 V/V)
+  * Independent references
+  * 16-bit, 250ksps ADC
+  * Multiplexed inputs
+* Stimulation
+  * ±2.5 mA amplitude
+  * ±10V compliance
+  * 50 µs timing
+  * Passive charge recovery/electrode discharge switch
+* Wireless microcontroller (nRF52840)
+* Sensor excitation
+  * Precision 2.5V output for use with piezoresistive pressure transducers
+* On-board sensors
+  * Humidity/temperature
+  * Accelerometer
+* Wireless charging
+  * AC rectification for magnetic resonant charging (LTC4124)
+  * CC/CV LiPo charging circuit
+  * Built-in LiPo protection circuit
+  * Battery voltage and current monitoring
+
 ### Support or Contact
 
 * Timir Datta-Chaudhuri (tdatta@northwell.edu)
