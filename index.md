@@ -10,6 +10,6 @@
 
 ### Support or Contact
 
-Timir Datta-Chaudhuri (tdatta@northwell.edu)
-Jason Wright (jason@jpw.nyc)
+* Timir Datta-Chaudhuri (tdatta@northwell.edu)
+* Jason Wright (jason@jpw.nyc)
 
