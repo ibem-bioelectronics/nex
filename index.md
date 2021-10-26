@@ -15,6 +15,7 @@
   * Independent references
   * 16-bit, 250ksps ADC
   * Multiplexed inputs
+  * 10 kHz sample rate
 * Stimulation
   * ±2.5 mA amplitude
   * ±10V compliance
