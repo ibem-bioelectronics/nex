@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## *nex* platform for neuroscience research
 
-You can use the [editor on GitHub](https://github.com/ibem-bioelectronics/nex/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+*nex* is an integrated hardware/software platform for neuroscience research, targeted at use cases requiring a small, lightweight form factor (e.g. small animal research), fully implantable packaging (e.g. chronic experiments), and closed-loop neuromodulation. The platform consists of:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ibem-bioelectronics/nex/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* _hardware_ (nexhw): a printed circuit board (PCB) design sized for applications as small as mouse implants
+* _firmware_ (nexfw): power-optimized code that runs on the implanted device, controlling a stimulation engine and transmitting recorded biosignals
+* _transceiver_ (nextrx): code for a USB device to transmit/receive data between a PC and the implanted device
+* _communication protocol_ (nexdp): a lightweight and ultrafast protocol for communication with data telemetry implants
+* _user interface_ (nexui): an application for real-time data visualization and system control
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Timir Datta-Chaudhuri (tdatta@northwell.edu)
+Jason Wright (jason@jpw.nyc)
+
