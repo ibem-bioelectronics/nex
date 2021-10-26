@@ -2,11 +2,11 @@
 
 *nex* is an integrated hardware/software platform for neuroscience research, targeted at use cases requiring a small, lightweight form factor (e.g. small animal research), fully implantable packaging (e.g. chronic experiments), and closed-loop neuromodulation. The platform consists of:
 
-* _hardware_ (nexhw): a printed circuit board (PCB) design sized for applications as small as mouse implants
-* _firmware_ (nexfw): power-optimized code that runs on the implanted device, controlling a stimulation engine and transmitting recorded biosignals
-* _transceiver_ (nextrx): code for a USB device to transmit/receive data between a PC and the implanted device
-* _communication protocol_ (nexdp): a lightweight and ultrafast protocol for communication with data telemetry implants
-* _user interface_ (nexui): an application for real-time data visualization and system control
+* _hardware_ ([nexhw](https://github.com/ibem-bioelectronics/nexhw)): a printed circuit board (PCB) design sized for applications as small as mouse implants
+* _firmware_ ([nexfw](https://github.com/ibem-bioelectronics/nexfw)): power-optimized code that runs on the implanted device, controlling a stimulation engine and transmitting recorded biosignals
+* _transceiver_ ([nextrx](https://github.com/ibem-bioelectronics/nextrx)): code for a USB device to transmit/receive data between a PC and the implanted device
+* _communication protocol_ ([nexdp](https://github.com/ibem-bioelectronics/nexdp)): a lightweight and ultrafast protocol for communication with data telemetry implants
+* _user interface_ ([nexui](https://github.com/ibem-bioelectronics/nexui)): an application for real-time data visualization and system control
 
 ### System functionality
 
